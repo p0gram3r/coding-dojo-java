@@ -1,4 +1,4 @@
-package codingdojo;
+package org.p0gram3r.codingdojo;
 
 public class HelloWorld {
 
