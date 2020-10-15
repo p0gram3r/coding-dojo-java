@@ -1,10 +1,9 @@
-package org.p0gram3r.codingdojo;
-
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+package it.p0gram3r.codingdojo;
 
 import org.junit.Test;
-import org.p0gram3r.codingdojo.HelloWorld;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
 
 public class HelloWorldTest {
 
