@@ -1,16 +1,15 @@
 package it.p0gram3r.codingdojo;
 
-import org.junit.Test;
+import static org.assertj.core.api.Assertions.assertThat;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.is;
+import org.junit.jupiter.api.Test;
 
-public class HelloWorldTest {
+class HelloWorldTest {
 
     @Test
-    public void test() {
+    void test() {
         HelloWorld thingy = new HelloWorld();
-        assertThat(thingy.getGreeting(), is("Hello World!"));
+        assertThat(thingy.getGreeting()).isEqualTo("Hello World!");
     }
 
 }
